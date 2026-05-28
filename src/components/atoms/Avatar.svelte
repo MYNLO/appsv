@@ -10,12 +10,9 @@
   };
 </script>
 
-<div 
-  class="rounded-full overflow-hidden bg-gray-700 flex-shrink-0"
-  class:{sizeClasses[size]}
->
-  <img 
-    src={imageUrl} 
+<div class="rounded-full overflow-hidden bg-gray-700 flex-shrink-0 {sizeClasses[size]}">
+  <img
+    src={imageUrl}
     alt="User avatar"
     class="w-full h-full object-cover"
   />
